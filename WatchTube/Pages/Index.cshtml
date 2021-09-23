@@ -1,0 +1,13 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<div class="video-columns">
+
+    @for (var i = 0; i < 50; i++)
+    {
+        <partial name="_Card" />
+    }
+
+</div>
